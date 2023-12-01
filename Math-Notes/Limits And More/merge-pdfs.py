@@ -2,7 +2,7 @@ from pypdf import PdfMerger
 
 pdfs = []
 
-for i in range(1,11):
+for i in range(1, 11):
     pdfs.append(f'{i}.pdf')
 
 merger = PdfMerger()
